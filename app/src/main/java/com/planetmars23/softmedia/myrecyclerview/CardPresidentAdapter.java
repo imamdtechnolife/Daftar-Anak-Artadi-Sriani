@@ -52,7 +52,6 @@ public class CardPresidentAdapter extends RecyclerView.Adapter<CardPresidentAdap
 
         holder.txtNama.setText(p.getNama());
         holder.txtRemarks.setText(p.getRemarks());
-
         holder.btnDetail.setOnClickListener(new CustomOnItemClickListener(position, new CustomOnItemClickListener.OnItemClickCallback()
         {
             @Override

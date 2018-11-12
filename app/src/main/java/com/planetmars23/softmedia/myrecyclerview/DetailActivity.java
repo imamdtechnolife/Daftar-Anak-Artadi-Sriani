@@ -47,6 +47,4 @@ public class DetailActivity extends AppCompatActivity{
                 .override(250, 350)
                 .into(imgProfil);
     }
-
-
 }
